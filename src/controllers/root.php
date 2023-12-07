@@ -14,10 +14,17 @@ switch ($action) {
         include("../src/view/home.php");
         break;
 
-      // 
+      // page pour creer un nouvelle articles
         case 'articles/create':
             include("../src/view/create.php");
             break;
+
+    
+    
+    // page store
+    case 'articles':
+        include("../src/view/store.php");
+        break;
 
 
         //page affichage articles
